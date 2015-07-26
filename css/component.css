@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+/*组件的样式*/
+
+/*组件一 弹框的样式*/
+/*灰框*/
+.fullbg{
+	width:100%;
+	height:1600px;
+	background-color:gray;
+	left:0;
+	position:absolute;
+	top:0;
+	z-index:3;
+	filter:alpha(opacity=50);  /* IE私有属性，仅适用于IE*/
+	-moz-opacity:0.5; /* 支持一些老版本的Mozilla浏览器(火狐)*/
+	-khtml-opacity:0.5;/*支持一些老版本的Safari浏览器*/
+	opacity:0.5; /* 支持CSS3的浏览器（主流）,支持Firefox, Safari和 Opera.*/
+	}
+/*装图片的框*/	
+.imgbox {
+	width:800px;
+	height:500px;
+	background-color:#FFF;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin:-250px 0 0 -400px;
+	z-index:5;
+		}	
+/*图片*/		
+.showImg{
+	width:780px;
+	height:480px;
+	margin:10px;
+	}	
+/*关闭符号*/	
+#pclose{
+	position:absolute;
+	top:-15px;
+	right:-15px;
+	cursor:pointer;
+	}	
+	
+	
+/*组件二 chart的样式*/	
+/*技能名字*/
+
+/*大条框*/	
+.bar{
+	height:20px;
+	width:100%;
+	background:#000;
+	margin-top:10px;
+	}
+/*进度条盒子*/	
+.degreebarbox{
+	height:10px;
+	width:50%;
+	/*background:#CC0;*/
+	float:right;
+	margin-top:6px;
+	}	
+/*进度条*/	
+.degreebar{
+	height:10px;
+	background:#00947a;
+	float:right;
+	}
+	
+/*组件三*/
+	
+.nav .active{
+	background:#6FF;
+	}	
+/*组件四，滚动框*/
+/*相对框	*/
+.relative_box{
+	position:relative;
+	width:380px;
+	height:200px;
+	/*border:1px solid red;*/
+	margin-left:27px;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	}
+/*绝对框*/
+.abusolute_box{
+	position:absolute;
+	width:800px;
+	height:200px;
+	/*border:1px solid yellow;*/
+	left:0;
+	margin:0;
+	padding:0;
+	}
+.abusolute_box ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	position:absolute;
+	}	
+.abusolute_box ul li{
+	float:left;
+	}
